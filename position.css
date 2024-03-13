@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    border: 1px solid grey;
+    margin: 0 auto;
+    width: 300px;
+}
+.card img{
+    width: 100%;
+}
+.cardtop{
+color: white;
+position: relative;
+}
+.upperdate {
+    padding: 5px;
+    position: absolute;
+    width: 50px;
+    height: 47px;
+    background-color: rgb(61, 170, 173);
+    left: 0%;
+    top: 0%;
+    text-align: center;
+}
+.time{
+    position: absolute;
+    height: 17px;
+    width: 50px;
+    background-color: rgb(35, 35, 100);
+    text-align: center;
+    left: 0%;
+    top: 20%;
+}
+.cardnew{
+    color: #13317f;
+    line-height: 1.25;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 20px 25px;
+}
+.cardreaction{
+    width: 100;
+    display: flex;
+    border-top: 1px solid black;
+}
+.cardreaction button{
+    width: 33.3%;
+}
+.class{
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 100%;
+    padding: 5px;
+    border: 0.5px solid grey;
+}
+.dislike:hover{
+    background-color: red;
+    color: white;
+}
+.like:hover{
+    background-color: green;
+    color: white;
+}
